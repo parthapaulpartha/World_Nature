@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*--------  navbar ------------- */
+.navbar a{
+    font-family: Georgia, serif;
+}
+.navbar-brand{
+    padding: 2em;
+}
+.navbar-brand:hover{
+    transform: scale(1.5);
+}
+.nav-item {
+    padding-right: 1em;
+}
+.nav-link:hover{
+    background-color: #708090;
+    transform: scale(1.3);
+}
+/*--------  navbar ------------- */
+
+/*--------  Slider image ------------- */
+.slider-image img{
+    width: 100%;
+    height: 550px;
+}
+/*--------  slider image ------------- */
+
+/*--------  sea section ------------- */
+.sea-image img{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.sea-image img:hover{
+    transform: scale(1.1);
+}
+.modal-for-image img:hover{
+    transform: none;
+}
+.Sea-Beach h1{
+    font-family: "Times New Roman", Times, serif;
+}
+.modal-body img{
+    width: 100%;
+    height: 300px;
+}
+.modal-image-footer h3, p{
+    font-family: "Times New Roman", Times, serif;
+}
+/*--------  sea section ------------- */
+
+/*--------  Forest section ------------- */
+.card img{
+    height: 170px;
+}
+.forest h1{
+    font-family: "Times New Roman", Times, serif;
+}
+.card-body h3, p, a{
+    font-family: "Times New Roman", Times, serif;
+}
+/*--------  Forest section ------------- */
+
+/*--------  News Feed section ------------- */
+.news-feed h2, h3, h4, h5, p{
+    font-family: "Times New Roman", Times, serif;
+}
+.post-contend img{
+    width: 100%;
+    height: 350px;
+}
+/*--------  News Feed section ------------- */
+
+/*--------  Category section ------------- */
+.popular-nature img{
+    width: 100%;
+    height: 130px;
+}
+.sidebar-search-container{
+    margin-top: 32px;
+}
+.visit_place img{
+    height: 300px;
+}
+/*--------  Category section ------------- */
+
+/*--------  Footer section ------------- */
+.footer h2, p{
+   font-family: "Times New Roman", Times, serif;
+}
+/*--------  Footer section ------------- */
+
+/*--------  Contact section ------------- */
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+/*--------  Contact section ------------- */
